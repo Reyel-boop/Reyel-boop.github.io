@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jhon Reyel Jimenez</title>
+  <meta name="description" content="Projects by Jhon Reyel Jimenez: web tools for schools and small businesses.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">JRJ</a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" aria-label="Switch light/dark theme">◐</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1>Jhon Reyel Jimenez</h1>
+      <p class="lead">I build web tools for schools and small businesses: learning systems, award portals, lesson-plan helpers and more.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">See my work</a>
+        <a class="btn" href="https://github.com/Reyel-boop" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="education">Education</button>
+        <button class="chip" data-filter="business">Business</button>
+      </div>
+      <div class="grid" id="project-grid"></div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>I make practical software for the people around me: teachers, students and local businesses. My projects range from a full learning management system built with Next.js and PostgreSQL to simple, fast pages anyone can open on a phone.</p>
+      <p class="muted">Tools I use: HTML, CSS, JavaScript, TypeScript, Next.js, Python, Git &amp; GitHub.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Want to work together or have a question about a project? Find me on GitHub.</p>
+      <a class="btn primary" href="https://github.com/Reyel-boop" target="_blank" rel="noopener">github.com/Reyel-boop</a>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Jhon Reyel Jimenez</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
